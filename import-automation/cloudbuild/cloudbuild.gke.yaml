@@ -2,6 +2,7 @@ steps:
 # Create a Cloud Tasks task that passes information
 # about the commit to the GKE executor.
 # Reference: https://cloud.google.com/sdk/gcloud/reference/tasks/create-http-task
+#
 - name: 'gcr.io/cloud-builders/gcloud'
   args: [
     'tasks',
