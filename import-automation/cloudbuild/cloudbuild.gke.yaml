@@ -17,11 +17,6 @@ steps:
     '--oidc-token-audience=$_OIDC_TOKEN_AUDIENCE',
     '--body-content={
         "COMMIT_SHA": "$COMMIT_SHA",
-        "REPO_NAME": "$REPO_NAME",
-        "BRANCH_NAME": "$BRANCH_NAME",
-        "HEAD_BRANCH": "$_HEAD_BRANCH",
-        "BASE_BRANCH": "$_BASE_BRANCH",
-        "PR_NUMBER": "$_PR_NUMBER",
         "configs": {
             "gcp_project_id": "$_GCP_PROJECT_ID",
             "github_auth_username": "$_GITHUB_AUTH_USERNAME",
