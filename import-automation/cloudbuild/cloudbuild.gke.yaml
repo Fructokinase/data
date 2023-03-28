@@ -28,8 +28,6 @@ steps:
             "github_auth_access_token": "$_GITHUB_AUTH_ACCESS_TOKEN",
             "github_repo_name": "$_GITHUB_REPO_NAME",
             "github_repo_owner_username": "$_GITHUB_REPO_OWNER_USERNAME",
-            "email_account": "$_EMAIL_ACCOUNT",
-            "email_token": "$_EMAIL_TOKEN",
             "gcs_project_id": "$_GCS_PROJECT",
             "storage_prod_bucket_name": "$_STORAGE_PROD_BUKCET_NAME",
             "executor_type": "GKE"
